@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+MESSAGE("build system tools")
+
+ADD_SUBDIRECTORY(src/dtbtool)
+ADD_SUBDIRECTORY(src/mkdzimage)
